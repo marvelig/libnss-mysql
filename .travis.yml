@@ -1,4 +1,4 @@
 sudo: required
 language: c
-install: sudo apt-get install libmysqlclient-dev
+install: sudo apt-get install -qq -y --no-install-recommends libmysqlclient-dev libmysqld-dev
 before_script: autoreconf -f -i
